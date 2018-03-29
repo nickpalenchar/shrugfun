@@ -4,6 +4,5 @@ function copyText(){
     var welp = document.getElementById('welp');
     welp.select();
     var res = document.execCommand('Copy');
-
-    console.log('he?', res);
+    document.getElementById('welp-btn').classList.add('expanded');
 }

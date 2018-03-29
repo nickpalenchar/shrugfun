@@ -1,0 +1,27 @@
+body {
+    background: rgb(85, 92, 114);
+}
+
+#container {
+    width: 100vw;
+    padding: 30% 0 0;
+}
+
+button.welp {
+    height: 300px;
+    width: 300px;
+    border-radius: 400px;
+    font-size: 60px;
+    font-family: sans-serif !important;
+    transition: height 1s ease, width 1s ease, border-radius 1s ease, background 2s ease;
+    display: block;
+    margin: 0 auto;
+    padding-top: 64px;
+
+}
+button.welp.expanded {
+    height: 1000px;
+    width: 1000px;
+    border-radius: 0;
+    background: #555;
+}
